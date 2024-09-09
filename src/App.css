@@ -1,0 +1,23 @@
+body {
+  background-image: linear-gradient(to bottom, #373e44, #101113);
+  height: 100vh;
+}
+
+.tab-highlighter {
+  height: 20px;
+  width: 50px;
+  margin-top: -2px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  -webkit-transition: all 0.6s cubic-bezier(0.21, 0.61, 0.36, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.21, 0.61, 0.36, 1);
+  -ms-transition: all 0.6s cubic-bezier(0.21, 0.61, 0.36, 1);
+  -o-transition: all 0.6s cubic-bezier(0.21, 0.61, 0.36, 1);
+  transition: all 0.6s cubic-bezier(0.21, 0.61, 0.36, 1);
+}
+
+.sha {
+  box-shadow: 5px 5px 5px rgb(23, 23, 23);
+}
